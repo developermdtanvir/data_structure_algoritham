@@ -8,7 +8,7 @@ const binarySearch = (exampleArray,target) =>{
     while (start <= end) {
         let med = Math.floor((start+end) /2);
         if(exampleArray[med] === target){
-            console.log(`item found in position ${med}`)
+            console.log(`তোমার নাম্বার পজিসন হলো ${med}`)
             return med
         }
         if(exampleArray[med]<target){
